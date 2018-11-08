@@ -139,6 +139,9 @@
     }
     #slider-container>span {
         font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+        color: #292929;
     }
     .slider {
         width: 100%;
