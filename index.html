@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles/main_style.css">
+    <link rel="stylesheet" href="SLICKslider/slick/slick.css">
+    <link rel="stylesheet" href="SLICKslider/slick/slick-theme.css">
+    
+    <script src="scripts/jquery-3.3.1.min.js"></script>
+    <script src="SLICKslider/slick/slick.js"></script>
+    
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+<div class="pageWrap">
+    <header>
+    <div id="nav">
+        <a href="" id="nav-logo"><img src="img/logo.png" alt="" >My Portfolio</a>
+        <div id="burgerButton" onclick="showMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul id="nav-list">
+            <a href="#about"><li id="nav-list-item" class="nav-list-item">About</li></a>
+            <a href="#exampels"><li id="nav-list-item" class="nav-list-item">Exampels</li></a>
+            <a href="#contacts"><li id="nav-list-item" class="nav-list-item">Contacts</li></a>
+        </ul>
+    </div>
+    </header>
+    <main>
+        <a id="link" name="about"></a>
+        <div id="about-skils">
+            <img src="img/moon.png" alt="">
+            <h3>Hi, I'm Igor Vinogradnyi</h3>
+            <p>I'm doing frontend development. I know and use technologies like HTML, CSS, basic BOOTSTRAP, basic LESS, JavaScript(functions, event handlers, cycles, etc.), jQuery(fancybox, slick slider)</p>
+            <div><a href="https://github.com/tonykrapatony" target="_blank">My GitHub</a></div>
+        </div>
+        <div id="about-description">
+            <img src="img/img3.jpg" alt="">
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor </p>
+        </div>
+        
+        <div class="exampels">
+            <div id="slider-container">
+            <h3>Some examples of my works with the list of technologies that I am using</h3>
+            <span>(flipping in the fry or right to see)</span>
+            <div class="slider">
+                <div class="slider-item">
+                    <img src="img/example_1.jpg" alt="">
+                    <h3><a href="http://click.ho.ua/">click.ho.ua</a></h3>
+                    <p>HTML, CSS, Bootstrap, JS, jQuery. News are downloaded from the API and displayed on the page</p>
+                </div>
+                <div class="slider-item">
+                    <img src="img/example_2.jpg" alt="">
+                    <h3><a href="">Site name</a></h3>
+                    <p>HTML, CSS</p>
+                </div>
+                <div class="slider-item">
+                    <img src="img/example_3.jpg" alt="">
+                    <h3><a href="">Site name</a></h3>
+                    <p>HTML, CSS</p>
+                </div>                
+            </div>
+            </div>  
+        </div>
+        
+        <a id="link" name="exampels"></a>
+    </main>
+    <footer>
+    <div id="privPlicy">All Rights Reserved &copy;</div>
+    <ul class="contacts">
+        <a href="https://github.com/tonykrapatony" title="GitHub" target="_blank"><li class="contacts-item"><img src="img/git.png" alt="GitHub"></li></a>
+        <a href="https://www.facebook.com/igor.vynogradnyi" title="Facebook" target="_blank"><li class="contacts-item"><img src="img/fb.png" alt="Facebook"></li></a>
+        <a href="https://t.me/IhorVynohradnyi" title="Telegram" target="_blank"><li class="contacts-item"><img src="img/tlgrm.png" alt="Telegram"></li></a>
+        <a href="https://www.instagram.com/igor_vynohradnyi/" title="Instagram" target="_blank"><li class="contacts-item"><img src="img/inst.png" alt="Instagram"></li></a>
+    </ul>
+    <a name="contacts"></a>
+    </footer>
+</div>  
+</body>
+</html>
