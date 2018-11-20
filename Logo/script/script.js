@@ -1,3 +1,13 @@
+function showMenu() {
+    var menu = document.getElementById('menu');
+    var menuStyle = getComputedStyle(menu);
+    if (menuStyle.display == 'none') {
+        menu.style.display = 'block';
+    } else {
+        menu.style.display = 'none';
+    }
+}
+
 $(function(){
     $('.slider').slick({
         slidesToShow: 4,
