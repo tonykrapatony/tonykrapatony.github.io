@@ -1,6 +1,6 @@
 // показати/сховати меню
 function showMenu() {
-    var menu = document.getElementById('nav-list');
+    var menu = document.getElementById('nav_list');
     var menuStyle = getComputedStyle(menu);
     if (menuStyle.display == 'none') {
         menu.style.display = 'block';
