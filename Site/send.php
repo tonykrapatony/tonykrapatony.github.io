@@ -21,7 +21,7 @@ $message = trim($message);
 //echo $fio;
 //echo "<br>";
 //echo $email;
-if (mail("tonykrapatony@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.". Телефон: ".$phone.". Сообщение: ".$message , "From: info@https://ihorvynohradnyi.000webhostapp.com \r\n")) 
+if (mail("tonykrapatony@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.". Телефон: ".$phone.". Сообщение: ".$message , "From: info@https://tonykrapatony.github.io/ \r\n")) 
 {
     echo "good"; 
 } else { 
