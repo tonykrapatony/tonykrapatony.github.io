@@ -1,0 +1,132 @@
+.pop_up_sigin {
+    width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    color: #3d9ad1;
+}
+.closeSignin {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+.closeSignin>img {
+    width: 100%;
+}
+.pop_up_sigin__content {
+    margin:100px auto 0px auto;
+    width: 60%;
+    height: 400px;
+    padding:10px;
+    z-index: 10;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.pop_up_sigin__content>h2 {
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.pop_up_sigin__content>form {
+    float: left;
+    width: 50%;
+    margin: 20px 25%;
+}
+.pop_up_sigin__content>form>input {
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.pop_up_sigin__content>form>input:last-child {
+    width: 40%;
+    margin: 20px 30%;
+    border: none;
+    border-radius: 2px;
+    background-color: #3d9ad1;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+
+
+.pop_up_login {
+    width: 100%;
+    min-height: 100%;
+    z-index: 10;
+    background-color: rgba(0,0,0,0.5);
+    overflow: hidden;
+    position: fixed;
+    top: 0px;
+    color: #3d9ad1;
+}
+.closeLogin {
+    position: fixed;
+    top: 5%;
+    right: 5%;
+    display: block;
+    float: right;
+    width: 30px;
+    height: 30px;
+}
+.closeLogin>img {
+    width: 100%;
+}
+.pop_up_login__content {
+    margin:100px auto 0px auto;
+    width: 60%;
+    height: 400px;
+    padding:10px;
+    z-index: 10;
+    background-color: #c5c5c5;
+    border-radius:5px;
+    box-shadow: 0px 0px 10px #000;
+}
+.pop_up_login__content>h2 {
+    float: left;
+    width: 100%;
+    margin: 20px 0;
+    text-align: center;
+}
+.pop_up_login__content>form {
+    float: left;
+    width: 50%;
+    margin: 20px 25%;
+}
+.pop_up_login__content>form>input {
+    float: left;
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.pop_up_login__content>form>input:last-child {
+    width: 50%;
+    margin: 20px 25%;
+    border: none;
+    border-radius: 2px;
+    background-color: #3d9ad1;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+}
+.pop_up_login__content>a {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align: center;
+}

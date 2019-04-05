@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Site</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="script/jquery-3.3.1.min.js"></script>
+    <script src="script/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="top_panel">
+            <a class="logo" href="index.html">LOGO</a>
+            
+            <div class="signin">Signin</div>
+            <div class="pop_up_sigin">
+                <a class="closeSignin" href="#"><img src="img/X.png" alt=""></a>
+                <div class="pop_up_sigin__content">
+                    <h2>Signin</h2>
+                    <form action="" method="">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="password" placeholder="Enter your password">
+                        <input type="text" placeholder="Enter your phone">
+                        <input type="email" placeholder="Enter your email">
+                        <input type="button" value="Signin">
+                    </form>
+                </div>
+            </div>
+            
+            <div class="login">Login</div>
+            
+            <div class="pop_up_login">
+                <a class="closeLogin" href="#"><img src="img/X.png" alt=""></a>
+                <div class="pop_up_login__content">
+                   <h2>Login</h2>
+                    <form action="" method="">
+                        <input type="text" placeholder="Enter your name">
+                        <input type="password" placeholder="Enter your password">
+                        <input type="button" value="Login">
+                    </form>
+                    <a href="#">Forgot name</a>
+                    <a href="#">Forgot password</a>
+                </div>
+            </div>
+        </div>
+        <div class="nav">
+            <ul class="menu">
+                <li class="menu__item">
+                    <div class="menu__content">
+                        <h3>Category 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__content">
+                        <h3>Category 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__content">
+                        <h3>Category 3</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__content">
+                        <h3>Category 4</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+                <li class="menu__item">
+                    <div class="menu__content">
+                        <h3>Category 5</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    
+    <main>
+        <div class="whyWe">
+            <h2>Why are we chosen?</h2>
+            <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                <li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>
+            </ul>
+        </div>
+        <div class="clients">
+            <h2>Our clients</h2>
+            <ul class="clients__list">
+                <li class="clients__item"><img src="img/1.png" alt=""></li>
+                <li class="clients__item"><img src="img/2.png" alt=""></li>
+                <li class="clients__item"><img src="img/3.png" alt=""></li>
+                <li class="clients__item"><img src="img/4.png" alt=""></li>
+                <li class="clients__item"><img src="img/5.png" alt=""></li>
+                <li class="clients__item"><img src="img/6.png" alt=""></li>
+            </ul>
+        </div>
+        <div class="feedback">
+            <h2>Leave your feedback</h2>
+            <form action="send.php" method="post">
+                <input type="text" name="fio" placeholder="Enter your name" required>
+                <input type="text" name="email" placeholder="Enter your e-mail" required>
+                <input type="text" name="phone" placeholder="Enter your phone number" required>
+                <textarea type="text" name="message" placeholder="Enter your message" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+    </main>
+    
+    <footer>
+        <div class="social">
+            <h2>Folow us</h2>
+            <ul>
+                <li class="social__item"><a href="#"><img src="img/fb.png" alt=""></a></li>
+                <li class="social__item"><a href="#"><img src="img/inst.png" alt=""></a></li>
+                <li class="social__item"><a href="#"><img src="img/twitter.png" alt=""></a></li>
+                <li class="social__item"><a href="#"><img src="img/youtube.png" alt=""></a></li>
+            </ul>
+        </div>
+        <div class="privecy">privecy</div>
+    </footer>
+</body>
+</html>
