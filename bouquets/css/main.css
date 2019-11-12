@@ -136,19 +136,34 @@ a {
         float: left;
         margin: 0 5%;
     }
-    .contacts {
+    .social {
         display: flex;
         justify-content: space-around;
+        flex-wrap: wrap;
         width: 100%;
         float: left;
     }
-    .contacts>li {
+    .social>li {
         float: left;
-        width: 100%;
         font-size: 1.5em;
         line-height: 64px;
     }
-    .contacts>li>img{
+    .social>li>img{
+        float: left;
+    }
+    .phone {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        float: left;
+    }
+    .phone>li {
+        float: left;
+        font-size: 1.5em;
+        line-height: 64px;
+    }
+    .phone>li>img{
         float: left;
     }
     footer {

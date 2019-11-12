@@ -8,18 +8,12 @@ function showMenu() {
         menu.style.display = 'none';
     }
 }
-//fix nav bar
-function showMenu() {
-    var nav = document.getElementById('nav');
-    var menuStyle = getComputedStyle(nav);
-    
-}
 
 //slider
 $(function(){
     var year =  new Date().getFullYear();
     $('.policy').html('All rights reserved &copy;' + ' ' + year);
-    
+      
     $('.slider').slick({
         infinite: true,
         slidesToShow: 3,

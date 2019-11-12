@@ -86,8 +86,6 @@
         width: 300px;
         max-width: 100%;
         margin: 0 auto;
-        border: 2px solid black;
-        box-sizing: border-box;
     }
     .prod_list_item>p {
         float: left;
@@ -118,13 +116,45 @@
     .about>h3 {
         width: 90%;
         float: left;
-        margin: 0 5%;
+        margin: 2.5% 5%;
         text-align: center;
     }
     .about_content{
         width: 90%;
         float: left;
         margin: 0 5%;
+    }
+    .social {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        float: left;
+    }
+    .social>li {
+        float: left;
+        font-size: 1em;
+        line-height: 64px;
+    }
+    .social>li>img{
+        float: left;
+        width: 40px;
+    }
+    .phone {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 100%;
+        float: left;
+    }
+    .phone>li {
+        float: left;
+        font-size: 1em;
+        line-height: 64px;
+    }
+    .phone>li>img{
+        float: left;
+        width: 40px;
     }
     footer {
         width: 100%;
