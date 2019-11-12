@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+@import url(style_mob.css);
+
+/*font-family: 'PT Sans', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+li {
+    list-style: none;
+    list-style-position: inside;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+@media screen and (min-width: 551px) {
+    body {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        height: 100%;
+        background-color: #afafaf;
+    }
+    header {
+        width: 100%;
+        float: left;
+    }
+    .nav {
+        position: fixed;
+        width: 100%;
+        max-width: 1440px;
+        float: left;
+        border-bottom: 1px solid black;
+        z-index: 999;
+        background-color: #afafaf; 
+    }
+    .nav_logo {
+        width: 20%;
+        float: left;
+        font-size: 2.5em;
+    }
+    .burger {
+        display: none;
+    }
+    .nav_menu {
+        width: 80%;
+        float: left;
+        display: flex;
+        justify-content: space-around;
+        font-size: 1.5em;
+    }
+    .menu_item {
+        line-height: 60px;
+    }
+    main {
+        width: 100%;
+        float: left;
+        margin: 10% 0 5% 0;
+    }
+    .slider {
+        width: 90%;
+        float: left;
+        margin: 2.5% 5%;
+    }
+    .product {
+        width: 100%;
+        float: left;
+    }
+    .product>h3 {
+        width: 80%;
+        margin: 0 10%;
+        text-align: center;
+    }
+    .prod_list {
+        width: 90%;
+        margin: 0 5%;
+    }
+    .prod_list_item {
+        width: 40%;
+        margin: 5%;
+        display: block;
+        float: left;
+    }
+    .prod_list_item>h4 {
+        width: 100%;
+        float: left;
+        margin: 5px 0;
+        font-size: 1.2em;
+        text-align: center;
+    }
+    .prod_list_item>img {
+        display: block;
+        width: 300px;
+        max-width: 100%;
+        margin: 0 auto;
+
+    }
+    .prod_list_item>p {
+        float: left;
+        margin: 5px;
+        font-size: 1em;
+        text-align: center;
+    }
+    .delivery {
+        width: 100%;
+        float: left;
+    }
+    .delivery h3{
+        width: 90%;
+        float: left;
+        margin: 0 5%;
+        text-align: center;
+    }
+    .delivery_content {
+        width: 90%;
+        float: left;
+        margin: 2.5% 5%;
+        text-align: center;
+    }
+    .about {
+        width: 100%;
+        float: left;
+    }
+    .about>h3 {
+        width: 90%;
+        float: left;
+        margin: 2.5% 5%;
+        text-align: center;
+    }
+    .about_content{
+        width: 90%;
+        float: left;
+        margin: 0 5%;
+    }
+    .contacts {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        float: left;
+    }
+    .contacts>li {
+        float: left;
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 64px;
+    }
+    .contacts>li>img{
+        float: left;
+    }
+    footer {
+        width: 100%;
+        float: left;
+    }
+    .policy {
+        width: 90%;
+        margin: 2.5% 5%;
+        float: left;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    .year {
+        float: ;
+    }
+}
+
