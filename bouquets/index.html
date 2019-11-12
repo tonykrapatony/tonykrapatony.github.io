@@ -16,7 +16,7 @@
 <body>
 
     <header>
-        <div class="nav">
+        <div id="nav" class="nav">
             <div class="nav_logo"><a href="index.html">LOGO</a></div>
             <div id="burger" onclick="showMenu()">
                 <span></span>
@@ -25,9 +25,9 @@
             </div>
             <div class="clear"></div>
             <ul class="nav_menu" id="nav_menu">
-                <li class="menu_item"><a href="">Продукція</a></li>
-                <li class="menu_item"><a href="">Доставка та оплата</a></li>
-                <li class="menu_item"><a href="">Про нас</a></li>
+                <li class="menu_item"><a href="#prod">Продукція</a></li>
+                <li class="menu_item"><a href="#delivery">Доставка та оплата</a></li>
+                <li class="menu_item"><a href="#about">Про нас</a></li>
             </ul>
         </div>
     </header>
@@ -35,56 +35,64 @@
     <main>
        
         <div class="slider">
-          <div><img src="img/product.png" alt=""></div>
-          <div><img src="img/product.png" alt=""></div>
-          <div><img src="img/product.png" alt=""></div>
-          <div><img src="img/product.png" alt=""></div>
-          <div><img src="img/product.png" alt=""></div>
-          <div><img src="img/product.png" alt=""></div>
+          <div><img src="img/product_1.png" alt=""></div>
+          <div><img src="img/product_2.png" alt=""></div>
+          <div><img src="img/product_3.png" alt=""></div>
+          <div><img src="img/product_4.png" alt=""></div>
+          <div><img src="img/product_5.png" alt=""></div>
+          <div><img src="img/product_6.png" alt=""></div>
         </div>        
-        <div class="product">
+        <div class="product"><a name="prod"></a>
             <h3>Приклад та асортимент нашої продукції</h3>
             <ul class="prod_list">
                 <li class="prod_list_item">
                     <h4>Product 1</h4>
-                    <img src="img/product.png" alt="">
+                    <img src="img/product_1.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ligula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
                 <li class="prod_list_item">
                     <h4>Product 2</h4>
-                    <img src="img/product.png" alt="">
+                    <img src="img/product_2.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ligula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
                 <li class="prod_list_item">
                     <h4>Product 3</h4>
-                    <img src="img/product.png" alt="">
+                    <img src="img/product_3.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ligula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
                 <li class="prod_list_item">
                     <h4>Product 4</h4>
-                    <img src="img/product.png" alt="">
+                    <img src="img/product_4.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ligula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
                 <li class="prod_list_item">
                     <h4>Product 5</h4>
-                    <img src="img/product.png" alt="">
+                    <img src="img/product_5.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ligula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
                 <li class="prod_list_item">
                     <h4>Product 6</h4>
-                    <img src="img/product.png" alt="">
+                    <img src="img/product_6.png" alt="">
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel ligula massa. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </li>
             </ul>
         </div>
-        <div class="delivery">
+        <div class="delivery"><a name="delivery"></a>
             <h3>Достака та оплата</h3>
             <div class="delivery_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
             <div class="delivery_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
         </div>
-        <div class="about">
+        <div class="about"><a name="about"></a>
             <h3>Про нас</h3>
             <div class="about_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <h3>Наші контакти</h3>
+            <ul class="contacts">
+                <li><img src="img/iconfinder_38-instagram_1161953.png" alt=""><a href="">instagram</a></li>
+                <li><img src="img/iconfinder_FB_1217112.png" alt=""><a href="">facebook</a></li>
+                <li><img src="img/iconfinder_phone8_216688.png" alt=""><span>+38(000)000-00-00</span></li>
+                <li><img src="img/iconfinder_phone8_216688.png" alt=""><span>+38(000)000-00-00</span></li>
+        
+            </ul>
         </div>
         
     </main>

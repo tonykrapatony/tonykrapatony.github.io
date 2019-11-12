@@ -1,3 +1,4 @@
+//show/hide menu
 function showMenu() {
     var menu = document.getElementById('nav_menu');
     var menuStyle = getComputedStyle(menu);
@@ -7,8 +8,14 @@ function showMenu() {
         menu.style.display = 'none';
     }
 }
+//fix nav bar
+function showMenu() {
+    var nav = document.getElementById('nav');
+    var menuStyle = getComputedStyle(nav);
+    
+}
 
-//слайдер
+//slider
 $(function(){
     var year =  new Date().getFullYear();
     $('.policy').html('All rights reserved &copy;' + ' ' + year);
@@ -16,6 +23,32 @@ $(function(){
     $('.slider').slick({
         infinite: true,
         slidesToShow: 3,
-        slidesToScroll: 3
+        slidesToScroll: 1,
+        arrows: false,
+        autoplay: true,
+        autoplaySpeed: 3000,
+        
+        responsive: [{
+            
+            breakpoint: 1024,
+            settings:{
+            infinite: true,
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000
+            }
+        }, {
+            breakpoint: 768,
+            settings:{
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            autoplay: true,
+            autoplaySpeed: 3000
+            }
+        }]
     });
 })

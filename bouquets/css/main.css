@@ -30,9 +30,13 @@ a {
         float: left;
     }
     .nav {
-        width: 98%;
-        margin: 0 1%;
+        position: fixed;
+        width: 100%;
+        max-width: 1440px;
         float: left;
+        border-bottom: 1px solid black;
+        z-index: 999;
+        background-color: #afafaf; 
     }
     .nav_logo {
         width: 20%;
@@ -55,7 +59,7 @@ a {
     main {
         width: 100%;
         float: left;
-        margin: 5% 0;
+        margin: 10% 0 5% 0;
     }
     .slider {
         width: 90%;
@@ -93,8 +97,7 @@ a {
         width: 300px;
         max-width: 100%;
         margin: 0 auto;
-        border: 2px solid black;
-        box-sizing: border-box;
+
     }
     .prod_list_item>p {
         float: left;
@@ -125,7 +128,7 @@ a {
     .about>h3 {
         width: 90%;
         float: left;
-        margin: 0 5%;
+        margin: 2.5% 5%;
         text-align: center;
     }
     .about_content{
@@ -133,15 +136,31 @@ a {
         float: left;
         margin: 0 5%;
     }
+    .contacts {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        float: left;
+    }
+    .contacts>li {
+        float: left;
+        width: 100%;
+        font-size: 1.5em;
+        line-height: 64px;
+    }
+    .contacts>li>img{
+        float: left;
+    }
     footer {
         width: 100%;
         float: left;
     }
     .policy {
         width: 90%;
-        margin: 5% 5%;
+        margin: 2.5% 5%;
         float: left;
         text-align: center;
+        font-size: 1.5em;
     }
     .year {
         float: ;
