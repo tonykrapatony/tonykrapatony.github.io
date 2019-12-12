@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.1/slick/slick-theme.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slick-1.8.1/slick/slick.min.js"></script>
+    <script src="js/script.js" defer></script>
+    
+</head>
+<body>
+    
+    <header>
+        <div class="nav">
+            <div class="logo"><a href="index.html">LOGO</a></div>
+            <div class="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="menu">
+                <li class="menu_item"><a href="index.html">Головна</a></li>
+                <li class="menu_item"><a href="shop.html">Магазин</a></li>
+                <li class="menu_item"><a href="#feedback">Зворотній зв'язок</a></li>
+                <li class="menu_item"><a href="#contacts">Контаки</a></li>
+                <li class="menu_item cart"><a href="cart.html"><span>Кошик</span><img src="img/cart.png" alt=""><span class="number"></span></a></li>
+            </ul>
+        </div>
+    </header>
+    
+    <div class="main">
+        <div class="main_content">
+            <div class="about">
+                <div class="about_content">
+                    <h2>Хто ми?</h2>
+                    <p>Молода команія що розвивається.</p>
+                    <p>Займаємось виготовленням різних крафтових речей та дрібниць.</p>
+                    <ul>
+                        <li>в'язані іграшкі;</li>
+                        <li>вироби з дерева;</li>
+                        <li>їстівні букети;</li>
+                        <li>та інше;</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="examples">
+                <h2>Приклади наших робіт</h2>
+                <div class="slider">
+                    <div><img src="img/1.png" alt=""></div>
+                    <div><img src="img/2.png" alt=""></div>
+                    <div><img src="img/3.png" alt=""></div>
+                    <div><img src="img/4.png" alt=""></div>
+                    <div><img src="img/5.png" alt=""></div>
+                    <div><img src="img/6.png" alt=""></div>
+                </div>
+            </div>
+            <div class="feedback">
+                <a name="feedback"></a>
+                <div class="feedback_content">
+                    <form action="send.php" method="post">
+                        <h2>Зворотній зв'язок</h2>
+                        <p>Якщо у вас виникли якісь запитання або хочете залишити відгок, заповніть будь ласка форму нижче</p>
+                        <label for="fio">Ваше ім'я:</label>
+                        <input type="text" name="fio" placeholder="Ім'я" required>
+                        <label for="email">E-mail</label>
+                        <input type="text" name="email" placeholder="Е-mail" required>
+                        <label for="message">Введіть текст</label>
+                        <textarea name="message"cols="50" rows="20"></textarea>
+                        <input class="button" type="submit" value="Отправить">
+                    </form>
+                </div>
+            </div>
+            <div class="contacts">
+                <a name="contacts"></a>
+                <h2>Наші контакти</h2>
+                <ul class="contact_phones">
+                    <li><img src="img/phone.png" alt="">+38(000)-000-00-00</li>
+                    <li><img src="img/phone.png" alt="">+38(000)-000-00-00</li>
+                    <li><img src="img/phone.png" alt="">+38(000)-000-00-00</li>
+                </ul>
+                <ul class="contact_social">
+                    <li><a href=""><img src="img/fb.png" alt="Facebook">Facebook</a></li>
+                    <li><a href=""><img src="img/inst.png" alt="Instagram">Instagram</a></li>
+                    <li><a href=""><img src="img/tel.png" alt="Telegram">Telegram</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer_content">
+            <div class="privecy">All rights reserved <span class="year"></span> &copy;</div>
+            <ul class="social">
+                <li class="social_item"><a href=""><img src="img/fb.png" alt="Facebook"></a></li>
+                <li class="social_item"><a href=""><img src="img/inst.png" alt="Instagram"></a></li>
+                <li class="social_item"><a href=""><img src="img/tel.png" alt="Telegram"></a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>

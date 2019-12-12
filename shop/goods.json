@@ -1,0 +1,38 @@
+{
+  "111" : {
+    "name" : "Товар 1",
+    "cost" : 100,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image" : "img/1.png"
+  },
+  "112" : {
+    "name" : "Товар 2",
+    "cost" : 120,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image" : "img/2.png"
+  },
+  "113" : {
+    "name" : "Товар 3",
+    "cost" : 90,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image" : "img/3.png"
+  },
+  "114" : {
+    "name" : "Товар 4",
+    "cost" : 85,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image" : "img/4.png"
+  },
+  "115" : {
+    "name" : "Товар 5",
+    "cost" : 95,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image" : "img/5.png"
+  },
+  "116" : {
+    "name" : "Товар 6",
+    "cost" : 140,
+    "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    "image" : "img/6.png"
+  }
+}
