@@ -1,0 +1,173 @@
+@media screen and (max-width: 590px){
+    .my_cart {
+        width: 100%;
+        min-height: 90vh;
+    }
+    .cart_item {
+        width: 90%;
+        float: left;
+        margin: 20px 5%;    
+        border: 1px solid #000;
+        border-radius: 5px;
+        position: relative;
+    }
+    .item_img {
+        float: left;
+        display: block;
+        margin: 20px 1%;
+        width: 25%;
+    }
+    .item_descr {
+        float: left;
+        height: 50px;
+        width: 71%;
+        margin: 20px 1% 0 1%;
+        text-align: center;
+    }
+    .minus, .plus {
+        float: left;
+        width: 9%;
+        height: 30px;
+        margin: 0px 1%;
+        background: none;
+        border: none;
+        line-height: 30px;
+    }
+    .minus {
+        background: url(../img/minus.png) no-repeat;
+        background-size: contain;
+    }
+    .plus {
+        background: url(../img/plus.png) no-repeat;
+        background-size: contain;
+    }
+    .item_number {
+        float: left;
+        width: 49%;
+        height: 50px;
+        text-align: center;
+    }
+    .item_price {
+        float: left;
+        height: 50px;
+        width: 71%;
+        margin: 0 1%;
+        text-align: center;
+    }
+    .delete {
+        display: block;
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        right: 5px;
+        top: 5px;
+        margin: 2px;
+        background: none;
+        border: none;
+    }
+    .sum {
+        width: 90%;
+        float: left;
+        margin: 20px 5%;
+    }
+    .empty_cart {
+        float: left;
+        margin: 20px;
+    }
+}
+
+@media screen and (min-width: 591px){
+    .my_cart {
+        width: 1440px;
+        max-width: 100%;
+        margin: 0 auto; 
+        min-height: 90vh;
+    }
+    .cart_item {
+        width: 98%;
+        float: left;
+        margin: 10px 1%;    
+        border: 1px solid #000;
+        border-radius: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+    }
+    .item_img {
+        display: block;
+        float: left;
+        margin: 5px;
+        height: 150px;
+        max-height: 200px;
+    }
+    .item_descr {
+        float: left;
+        margin: 5px;
+        height: 150px;
+        max-height: 200px;
+        line-height: 150px;
+    }
+    .minus, .plus {
+        width: 30px;
+        height: 30px;
+        float: left;
+        display: block;
+        margin: 65px 10px;
+        background: none;
+        border: none;
+        line-height: 30px;
+    }
+    .minus {
+        background: url(../img/minus.png) no-repeat;
+        background-size: contain;
+    }
+    .plus {
+        background: url(../img/plus.png) no-repeat;
+        background-size: contain;
+    }
+    .item_number {
+        float: left;
+        margin: 5px;
+        height: 150px;
+        max-height: 200px;
+        line-height: 150px;
+    }
+    .item_price {
+        float: left;
+        margin: 5px 10px;
+        height: 150px;
+        max-height: 200px;
+        line-height: 150px;
+    }
+    .delete {
+        display: block;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        margin: 2px;
+        background: none;
+        border: none;
+    }
+    .sum {
+        width: 98%;
+        float: left;
+        margin: 10px 1%; 
+    }
+    .cart_order {
+        float: left;
+        width: 200px;
+        height: 50px;
+        margin: 10px 1%; 
+        border-radius: 5px;
+        background-color: #000;
+        color: #fff;
+        line-height: 50px;
+        text-align: center;
+        cursor: pointer;
+    }
+    .empty_cart {
+        float: left;
+        margin: 20px;
+    }
+}
