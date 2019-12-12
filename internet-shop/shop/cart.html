@@ -40,6 +40,23 @@
         <div class="my_cart">
         
         </div>
+        
+        <div class="order_block">
+            <div class="order_form">
+                <img class="close" src="img/close.png" alt="Close">
+                <form action="order.php" method="post">
+                    <label for="fio">Ваше ім'я:</label>
+                    <input type="text" name="fio" placeholder="Ім'я" required>
+                    <label for="email">E-mail</label>
+                    <input type="text" name="email" placeholder="Е-mail" required>
+                    <label for="phone">Ваш номер телефону</label>
+                    <input type="text" name="phone" placeholder="+38(000)-000-00-00" required>
+                    <label for="message">Коментар до замовлення</label>
+                    <textarea name="message"cols="50" rows="20"></textarea>
+                    <button class="button" type="submit" value="Надіслати">Надіслати</button>
+                </form>
+            </div>
+        </div>
     
     </div>
     

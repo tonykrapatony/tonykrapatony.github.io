@@ -2,6 +2,7 @@ var cart = {};
 
 $(function(){
     order();
+    closeOrder();
 })
 
 $.getJSON('goods.json', function(data){
@@ -40,7 +41,7 @@ $.getJSON('goods.json', function(data){
                 out += '</div>';
             }
             out += '<div class="sum">Загальна вартість: '+sum+' грн.</div>';
-            out += '<div class="cart_order">Оформити замовлення</div>';
+            out += '<div class="order_button">Оформити замовлення</div>';
             $('.my_cart').html(out);
             $('.delete').on('click', deleteGoods);
             $('.minus').on('click', minusGoods);
@@ -53,6 +54,7 @@ $.getJSON('goods.json', function(data){
         delete cart[articul];
         savecarttoLS();
         showCart();
+        showMiniCart();
     }
     function minusGoods(){
         var articul = $(this).attr('data-atr');
@@ -63,12 +65,14 @@ $.getJSON('goods.json', function(data){
         }
         savecarttoLS();
         showCart();
+        showMiniCart();
     }
     function plusGoods(){
         var articul = $(this).attr('data-atr');
         cart[articul]++;
         savecarttoLS();
         showCart();
+        showMiniCart();
     }
 })
 
@@ -85,7 +89,13 @@ function savecarttoLS(){
 }
 
 function order(){
-    $('.cart_order').on('click', function(){
-        alert('order');
+    $('.order_button').on('click', function(){
+        $('.order_block').css('display', 'block');
+    })
+}
+
+function closeOrder(){
+    $('.close').on('click', function(){
+        $('.order_block').css('display', 'none');
     })
 }

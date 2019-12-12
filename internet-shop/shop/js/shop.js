@@ -45,7 +45,6 @@ function checkCart(){
     if (localStorage.getItem('cart') != null){
         cart = JSON.parse(localStorage.getItem('cart')); //отримення даних(getItem) з localStorage, перетворення їх назад в масив JSON.parse і внесення в масив cart
     }
-    console.log(cart);
 }
 
 function showMiniCart(){

@@ -167,20 +167,38 @@
         text-align: center;
         font-size: 30px
     }
-    .contacts_content {
+    .contact_phones {
         width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
     }
-    .contacts_content>li {
+    .contact_phones>li {
         float: left;
         margin: 20px 2%;
+        height: 48px;
         font-size: 15px;
     }
-    .contacts_content li img {
+    .contact_phones>li>img {
         float: left;
-        width: 40px;
+        width: 30px;
+        margin-right: 2px;
+    }
+    .contact_social {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    .contact_social>li {
+        float: left;
+        margin: 20px 2%;
+        height: 48px;
+        font-size: 15px;
+    }
+    .contact_social li img {
+        float: left;
+        width: 30px;
         margin-right: 2px;
     }
 
