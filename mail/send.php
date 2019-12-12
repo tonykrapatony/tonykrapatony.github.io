@@ -7,9 +7,9 @@ $fio = urldecode($fio);
 $email = urldecode($email);
 $fio = trim($fio);
 $email = trim($email);
-//echo $fio;
-//echo "<br>";
-//echo $email;
+echo $fio;
+echo "<br>";
+echo $email;
 if (mail("tonykrapatony@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: tonykrapatony@gmail.com \r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
