@@ -76,6 +76,11 @@
         margin: 10px 1%;
     }
     .order_button {
+        float: right;
+        width: 50px;
+        margin: 27px 20px;
+        cursor: pointer;
+/*
         float: left;
         width: 200px;
         height: 50px;
@@ -86,6 +91,7 @@
         line-height: 50px;
         text-align: center;
         cursor: pointer;
+*/
     }
     .order_block {
         display: none;

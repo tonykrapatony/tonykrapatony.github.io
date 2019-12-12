@@ -1,8 +1,7 @@
 var cart = {};
 
 $(function(){
-    order();
-    closeOrder();
+    
 })
 
 $.getJSON('goods.json', function(data){
@@ -46,6 +45,8 @@ $.getJSON('goods.json', function(data){
             $('.delete').on('click', deleteGoods);
             $('.minus').on('click', minusGoods);
             $('.plus').on('click', plusGoods);  
+            order();
+            closeOrder();
         }
     }
     
@@ -89,7 +90,7 @@ function savecarttoLS(){
 }
 
 function order(){
-    $('.order_button').on('click', function(){
+    $('.order_button').click(function(){
         $('.order_block').css('display', 'block');
     })
 }
