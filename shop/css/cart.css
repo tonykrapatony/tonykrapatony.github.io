@@ -137,7 +137,7 @@
     .order_form>form>textarea {
         float: left;
         width: 90%;
-        height: 200px;
+        height: 100px;
         margin: 5px 5% 20px 5%;
         text-align: center;
     }
