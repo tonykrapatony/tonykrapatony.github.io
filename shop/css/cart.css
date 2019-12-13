@@ -83,7 +83,9 @@
         cursor: pointer;
         border-radius: 5px;
         background-color: #000;
-        color: #fff
+        color: #fff;
+        text-align: center;
+        line-height: 50px;
     }
     .order_block {
         display: none;
@@ -134,8 +136,8 @@
     }
     .order_form>form>textarea {
         float: left;
-        width: 100%;
         width: 90%;
+        height: 200px;
         margin: 5px 5% 20px 5%;
         text-align: center;
     }
