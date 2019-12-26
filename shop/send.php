@@ -1,7 +1,9 @@
 <?php
+$to = 'tonykrapatony@gmail.com';
 $fio = $_POST['fio'];
 $email = $_POST['email'];
 $message = $_POST['message'];
+$headers = "From: <tonykrapatony@gmail.com>\r\n";
 $fio = htmlspecialchars($fio);
 $email = htmlspecialchars($email);
 $message = htmlspecialchars($message)
@@ -14,7 +16,7 @@ $message = trim($message);
 //echo $fio;
 //echo "<br>";
 //echo $email;
-if (mail("tonykrapatony@gmail.com", "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.". Повідомлення: ".$message ,"From: tonykrapatony@gmail.com \r\n"))
+if (mail($to, "Заявка с сайта", "ФИО:".$fio.". E-mail: ".$email.". Повідомлення: ".$message , $headers))
  {     echo "сообщение успешно отправлено";
 } else {
     echo "при отправке сообщения возникли ошибки";
