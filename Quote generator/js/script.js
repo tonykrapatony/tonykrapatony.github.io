@@ -1,4 +1,12 @@
 $(function(){ 
+    quoteGen();
+    
+    $('.header').on('click', function(){
+        quoteGen();
+    });
+})
+
+function quoteGen(){
     function getRandomInt(max) {
       return Math.floor(Math.random() * Math.floor(max))+110;
     }
@@ -11,8 +19,4 @@ $(function(){
         quote += '"'+data[num]+'"';
         $('.quote').html(quote);
     })
-    
-    $('.header').on('click', function(){
-        location.reload();
-    })
-})
+}

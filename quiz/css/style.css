@@ -51,7 +51,8 @@
 .answer>input:checked {
     background-color: green;
 }
-.result {
+.result, .score {
+    max-width: 80%;
     width: 500px;
     margin: 50px auto;
     border: 1px solid black;

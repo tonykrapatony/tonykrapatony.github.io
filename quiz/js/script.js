@@ -77,7 +77,7 @@ function calcResult() {
                 }
 
                 console.log(result);
-                $('.question_list').html('<div class="result">Your result '+result+' point(s)</div>');
+                $('.question_list').html('<div class="score">Your result '+result+' point(s)</div>');
 
         });
     })
